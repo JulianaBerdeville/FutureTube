@@ -156,3 +156,73 @@ footer h1
     }
 
 }
+
+/*Port pra desktops*/
+@media only screen and (max-width: 400px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+        nav 
+    {
+        background-color: #db8437;
+        border: 1px solid #db8437;
+        display: block;
+        height: 10vh;
+        width: 131%;
+    }
+    
+        nav a h1
+    {
+        float: left;
+        font-size: 30px;
+        margin-left: 10px;
+        color: black;
+    }
+
+        nav input 
+    {
+        height: 1px;
+        width: 20vw;
+        margin-left: 45%;
+        font-size: 15px;
+        padding: 25px;
+    }
+
+    .container
+    {
+        display: block;
+        height: 55vh;  
+    }
+
+    video
+    {
+        width: 130%;
+        margin-left: 1%;
+    }
+
+    footer
+    {
+        background-color: #2b3140;
+        border: 1px solid #2b3140;
+        display: block;
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+        width: 131%;
+        
+    }
+
+    footer h1
+    {
+        
+        font-size: 18px;
+        color: white;
+        float: left;
+        
+    }
+
+}
+/*Port pra desktops*/
